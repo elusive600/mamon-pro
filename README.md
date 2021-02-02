@@ -1,2 +1,2 @@
 # mamon.pro
- first site my
+https://elusive600.github.io/mamon.pro/
