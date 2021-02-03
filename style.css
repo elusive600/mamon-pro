@@ -342,3 +342,255 @@
 .footer__link {
     padding-left: 40px;
 }
+
+@media screen and (max-width: 1200px) {
+    .menu, .main, .servise, .clients, .team {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main {
+        padding-left: 10px;
+    }
+
+    .footer__content {
+        padding-right: 15px;
+    }
+}
+ 
+@media screen and (max-width: 850px) {
+    .team__member:nth-child(3) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .team__member:last-child {
+        grid-column: 1/3;
+        justify-content: center;
+    }
+
+    .team__members {
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        padding: 64px 10px 80px;
+    }
+
+    .main__title {
+        font-weight: 700;
+        font-size: 41px;
+        line-height: 45px;
+        margin-bottom: 29px;
+    }
+
+    .main__text {
+        font-size: 22px;
+        line-height: 39px;
+        margin-bottom: 28px;
+    }
+    
+    .servise {
+        padding: 50.5px 0;
+    }
+
+    .servise__item:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .servise__item:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .servise__item:nth-child(3) {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .servise__item:last-child {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .servise__img {
+        margin-right: 40px;
+    }
+
+    .clients {
+        padding: 61.5px 0;
+    }
+
+    .clients__our-client:nth-child(4) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .team {
+        padding: 55px 0;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 0 0 ;
+    }
+
+    .menu__logo {
+        margin: 0 0 10px 0;
+    }
+
+    .menu__list li:first-child a  {
+        margin-left: 0;
+    }
+
+    .menu__item {
+        font-size: 20px;
+    }
+
+    .clients__our-client:nth-child(3) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .clients__our-client:nth-child(4) {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .main {
+        padding-left: 18px;
+    }
+
+    .team__members {
+        display: grid;
+        column-gap: 26px;
+        row-gap: 36px;
+    }
+
+    .team__member-info {
+        margin-left: 9px;
+    }
+
+    .footer__content {
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .menu__title {
+        font-size: 37px;
+    }
+
+    .menu {
+        align-items: flex-start;
+        padding: 25px 18px 0;
+    }
+
+    .menu__list {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 11px;
+    }
+
+    .menu__list li {
+        margin-bottom: 11px;
+    }
+
+    .menu__item {
+        margin-left: 0;
+    }
+
+    .main {
+        padding: 31px 10px 80px;
+    }
+
+    .servise__items {
+        row-gap: 57px;
+    }
+
+    .servise__img {
+        padding-left: 13px;
+        margin-right: 40px;
+    }
+
+    .servise__info h2 {
+        padding-right: 5px;
+    }
+
+    .servise__info p {
+        padding-right: 13px;
+    }
+
+    .clients__our-client:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .clients__our-client:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .clients__our-client:nth-child(3) {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .clients__our-client:nth-child(4) {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .team__members {
+        padding: 0 ;
+    }
+
+    .team__member {
+        justify-content: center;
+    }
+
+    .team__member-info {
+        margin-left: 35px;
+    }
+
+    .team__member:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .team__member:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .team__member:nth-child(3) {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .team__member:last-child {
+        grid-column: 1;
+    }
+    
+    .footer__logo {
+        display: none;
+    }
+
+    .footer__content {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    .footer__link:first-child {
+        padding-left: 0;
+    }
+}
