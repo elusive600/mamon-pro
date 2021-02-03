@@ -444,7 +444,7 @@
     }
 
     .menu__logo {
-        margin: 0 0 10px 0;
+        margin: 0 0 12px 0;
     }
 
     .menu__list li:first-child a  {
@@ -452,7 +452,8 @@
     }
 
     .menu__item {
-        font-size: 20px;
+        font-size: 15px;
+        margin-left: 10px;
     }
 
     .clients__our-client:nth-child(3) {
@@ -467,6 +468,7 @@
 
     .main {
         padding-left: 18px;
+        padding: 34px 10px 80px;
     }
 
     .team__members {
@@ -486,7 +488,7 @@
 
 @media screen and (max-width: 560px) {
 
-    .menu__title {
+    /* .menu__title {
         font-size: 37px;
     }
 
@@ -507,7 +509,7 @@
 
     .menu__item {
         margin-left: 0;
-    }
+    } */
 
     .main {
         padding: 31px 10px 80px;
